@@ -5,8 +5,8 @@ on:
     branches:
       - main
 #  定时 - 删除#解锁
-#  schedule:
-#    - cron: "0 0 * * *"
+  schedule:
+    - cron: "0 0 * * *"
 
 jobs:
   autogreen:
